@@ -41,10 +41,5 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Newsletter', link: 'en/newsletter' },
 			{ text: 'Contribute', link: 'en/contribute' },
 		],
-		'Follow Us': [
-			{ text: 'Twitter', link: 'en/twitter' },
-			{ text: 'Discord', link: 'en/disc' },
-			{ text: 'GitHub', link: 'en/' },
-		],
 	},
 };
