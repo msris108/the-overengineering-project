@@ -24,9 +24,9 @@ export const GITHUB_EDIT_URL = `https://github.com/msris108/the-overengineering-
 export const COMMUNITY_INVITE_URL = `https://discord.gg/ec6KA9Uh`;
 
 export const ALGOLIA = {
-	indexName: 'test2',
-	appId: 'IHR6X5H4J3',
-	apiKey: '113c841906f4e99e7540624cb0d13ec4',
+	indexName: import.meta.env.PUBLIC_INDEX_NAME,
+	appId: import.meta.env.PUBLIC_APP_ID,
+	apiKey: import.meta.env.PUBLIC_KEY,
 };
 
 export type Sidebar = Record<
